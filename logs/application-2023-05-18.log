@@ -1,0 +1,589 @@
+[2023-05-18 12:51:36] [WARN] [自定义异常] { status: 400, message: '用户名重复' }
+[2023-05-18 15:05:29] [ERROR] SyntaxError: invalid JSON, only supports object and array
+    at parse (/Users/ltc/Desktop/my/front/blog-serve/node_modules/co-body/lib/json.js:55:13)
+    at AsyncFunction.module.exports [as json] (/Users/ltc/Desktop/my/front/blog-serve/node_modules/co-body/lib/json.js:41:20)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-body/src/index.ts:48:28
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-log4/koa-logger.js:86:7
+    at session (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-session/index.js:41:7) {
+  status: 400,
+  body: '"{\\n  \\"username\\":\\"tc\\",\\n  \\"password\\":\\"123456\\",\\n}\\n"'
+}
+[2023-05-18 15:05:38] [WARN] [Error [ValidationError]: 验证码是必传参数] {
+  bouncer: { key: 'vercode', message: '验证码是必传参数' }
+}
+[2023-05-18 15:09:20] [WARN] [Error [ValidationError]: 文章标题为必传参数] {
+  bouncer: { key: 'title', message: '文章标题为必传参数' }
+}
+[2023-05-18 16:03:19] [ERROR] TypeError: "update_time" is read-only
+    at _readOnlyError (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:4:26)
+    at call (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:14:54)
+    at tryCatch (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1)
+    at Generator._invoke (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1)
+    at Generator.next (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1)
+    at asyncGeneratorStep (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1)
+    at _next (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1)
+    at /Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1
+    at new Promise (<anonymous>)
+    at apply (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1)
+    at updateOne (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:12:23)
+    at call (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:29:30)
+    at tryCatch (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1)
+    at Generator._invoke (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1)
+    at Generator.next (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1)
+    at asyncGeneratorStep (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1)
+    at _next (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1)
+    at /Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1
+    at new Promise (<anonymous>)
+    at apply (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1)
+    at update (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:27:20)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:425:16
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:485:12)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:425:16
+    at next (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at call (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:15:13)
+    at tryCatch (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at Generator._invoke (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at Generator.next (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at asyncGeneratorStep (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at _next (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at /Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1
+    at new Promise (<anonymous>)
+    at apply (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at /Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:24:2
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:425:16
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:430:31)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-static/index.js:53:15)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at logger (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-logger/index.js:67:13)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-bouncer/src/index.js:664:12
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+[2023-05-18 16:04:13] [ERROR] TypeError: "update_time" is read-only
+    at _readOnlyError (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:4:26)
+    at call (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:14:54)
+    at tryCatch (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1)
+    at Generator._invoke (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1)
+    at Generator.next (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1)
+    at asyncGeneratorStep (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1)
+    at _next (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1)
+    at /Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1
+    at new Promise (<anonymous>)
+    at apply (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1)
+    at updateOne (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:12:23)
+    at call (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:29:30)
+    at tryCatch (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1)
+    at Generator._invoke (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1)
+    at Generator.next (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1)
+    at asyncGeneratorStep (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1)
+    at _next (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1)
+    at /Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1
+    at new Promise (<anonymous>)
+    at apply (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1)
+    at update (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:27:20)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:425:16
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:485:12)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:425:16
+    at next (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at call (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:15:13)
+    at tryCatch (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at Generator._invoke (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at Generator.next (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at asyncGeneratorStep (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at _next (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at /Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1
+    at new Promise (<anonymous>)
+    at apply (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at /Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:24:2
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:425:16
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:430:31)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-static/index.js:53:15)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at logger (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-logger/index.js:67:13)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-bouncer/src/index.js:664:12
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+[2023-05-18 16:04:14] [ERROR] TypeError: "update_time" is read-only
+    at _readOnlyError (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:4:26)
+    at call (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:14:54)
+    at tryCatch (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1)
+    at Generator._invoke (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1)
+    at Generator.next (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1)
+    at asyncGeneratorStep (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1)
+    at _next (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1)
+    at /Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1
+    at new Promise (<anonymous>)
+    at apply (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1)
+    at updateOne (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:12:23)
+    at call (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:29:30)
+    at tryCatch (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1)
+    at Generator._invoke (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1)
+    at Generator.next (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1)
+    at asyncGeneratorStep (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1)
+    at _next (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1)
+    at /Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1
+    at new Promise (<anonymous>)
+    at apply (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1)
+    at update (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:27:20)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:425:16
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:485:12)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:425:16
+    at next (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at call (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:15:13)
+    at tryCatch (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at Generator._invoke (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at Generator.next (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at asyncGeneratorStep (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at _next (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at /Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1
+    at new Promise (<anonymous>)
+    at apply (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at /Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:24:2
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:425:16
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:430:31)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-static/index.js:53:15)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at logger (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-logger/index.js:67:13)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-bouncer/src/index.js:664:12
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+[2023-05-18 16:05:19] [ERROR] TypeError: "update_time" is read-only
+    at _readOnlyError (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:4:26)
+    at call (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:14:54)
+    at tryCatch (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1)
+    at Generator._invoke (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1)
+    at Generator.next (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1)
+    at asyncGeneratorStep (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1)
+    at _next (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1)
+    at /Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1
+    at new Promise (<anonymous>)
+    at apply (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1)
+    at updateOne (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:12:23)
+    at call (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:29:30)
+    at tryCatch (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1)
+    at Generator._invoke (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1)
+    at Generator.next (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1)
+    at asyncGeneratorStep (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1)
+    at _next (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1)
+    at /Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1
+    at new Promise (<anonymous>)
+    at apply (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1)
+    at update (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:27:20)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:425:16
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:485:12)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:425:16
+    at next (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at call (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:15:13)
+    at tryCatch (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at Generator._invoke (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at Generator.next (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at asyncGeneratorStep (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at _next (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at /Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1
+    at new Promise (<anonymous>)
+    at apply (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at /Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:24:2
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:425:16
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:430:31)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-static/index.js:53:15)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at logger (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-logger/index.js:67:13)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-bouncer/src/index.js:664:12
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+[2023-05-18 16:05:20] [ERROR] TypeError: "update_time" is read-only
+    at _readOnlyError (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:4:26)
+    at call (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:14:54)
+    at tryCatch (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1)
+    at Generator._invoke (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1)
+    at Generator.next (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1)
+    at asyncGeneratorStep (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1)
+    at _next (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1)
+    at /Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1
+    at new Promise (<anonymous>)
+    at apply (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:2:1)
+    at updateOne (/Users/ltc/Desktop/my/front/blog-serve/services/categorie.js:12:23)
+    at call (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:29:30)
+    at tryCatch (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1)
+    at Generator._invoke (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1)
+    at Generator.next (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1)
+    at asyncGeneratorStep (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1)
+    at _next (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1)
+    at /Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1
+    at new Promise (<anonymous>)
+    at apply (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:2:1)
+    at update (/Users/ltc/Desktop/my/front/blog-serve/controller/categorie.js:27:20)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:425:16
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:485:12)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:425:16
+    at next (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at call (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:15:13)
+    at tryCatch (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at Generator._invoke (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at Generator.next (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at asyncGeneratorStep (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at _next (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at /Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1
+    at new Promise (<anonymous>)
+    at apply (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at /Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:24:2
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:425:16
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:430:31)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-static/index.js:53:15)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at logger (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-logger/index.js:67:13)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-bouncer/src/index.js:664:12
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+[2023-05-18 16:25:09] [ERROR] MongoServerError: E11000 duplicate key error collection: test.categories index: name_1 dup key: { name: "分类名称" }
+    at new MongoError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/error.ts:138:7)
+    at new MongoServerError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/error.ts:185:5)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/operations/insert.ts:85:25
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/connection_pool.ts:566:11
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/sdam/server.ts:367:13
+    at handleOperationResult (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/sdam/server.ts:501:14)
+    at Connection.onMessage (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/connection.ts:418:5)
+    at MessageStream.<anonymous> (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/connection.ts:243:56)
+    at MessageStream.emit (events.js:400:28)
+    at MessageStream.emit (domain.js:475:12)
+    at processIncomingData (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/message_stream.ts:187:12)
+    at MessageStream._write (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/message_stream.ts:68:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at Socket.emit (domain.js:475:12)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  index: 0,
+  code: 11000,
+  keyPattern: { name: 1 },
+  keyValue: { name: '分类名称' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-05-18 16:35:16] [ERROR] MongoParseError: option debug is not supported
+    at new MongoError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/error.ts:138:7)
+    at new MongoDriverError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/error.ts:209:5)
+    at new MongoParseError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/error.ts:592:5)
+    at parseOptions (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/connection_string.ts:360:11)
+    at new MongoClient (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/mongo_client.ts:337:34)
+    at _createMongoClient (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/connection.js:887:14)
+    at NativeConnection.openUri (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/connection.js:742:29)
+    at Mongoose.connect (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/index.js:406:15)
+    at _default (/Users/ltc/Desktop/my/front/blog-serve/core/db.js:8:12)
+    at Object.<anonymous> (/Users/ltc/Desktop/my/front/blog-serve/app.js:19:10)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (/Users/ltc/Desktop/my/front/blog-serve/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (/Users/ltc/Desktop/my/front/blog-serve/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.runMain (internal/modules/run_main.js:75:12)
+    at Object.<anonymous> (/Users/ltc/Desktop/my/front/blog-serve/node_modules/@babel/node/src/_babel-node.ts:223:12)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:75:12)
+    at internal/main/run_main_module.js:17:47 {
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-05-18 16:39:50] [WARN] [Error [ValidationError]: 验证码是必传参数] {
+  bouncer: { key: 'vercode', message: '验证码是必传参数' }
+}
+[2023-05-18 16:43:48] [WARN] [自定义异常] { status: 400, message: '用户名重复' }
+[2023-05-18 17:21:57] [ERROR] CastError: Cast to ObjectId failed for value "" (type string) at path "_id" for model "Categorie"
+    at new MongooseError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/error/cast.js:27:7)
+    at ObjectId.cast (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/schema/objectid.js:248:11)
+    at ObjectId.SchemaType.applySetters (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/schematype.js:1202:12)
+    at ObjectId.SchemaType.castForQuery (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/schematype.js:1614:15)
+    at cast (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/cast.js:348:32)
+    at model.Query.Query.cast (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/query.js:4819:12)
+    at model.Query.Query._castConditions (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/query.js:2193:10)
+    at model.Query._findOne (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/query.js:2477:8)
+    at model.Query.exec (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/query.js:4349:28)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) {
+  stringValue: '""',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: '',
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/bson/src/error.ts:27:5)
+      at new ObjectId (/Users/ltc/Desktop/my/front/blog-serve/node_modules/bson/src/objectid.ts:88:15)
+      at castObjectId (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/schema/objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/schematype.js:1202:12)
+      at ObjectId.SchemaType.castForQuery (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/schematype.js:1614:15)
+      at cast (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/cast.js:348:32)
+      at model.Query.Query.cast (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/query.js:4819:12)
+      at model.Query.Query._castConditions (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/query.js:2193:10)
+      at model.Query._findOne (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/query.js:2477:8)
+      at model.Query.exec (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/query.js:4349:28)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5),
+  valueType: 'string',
+  model: Model { Categorie }
+}
+[2023-05-18 17:22:04] [ERROR] CastError: Cast to ObjectId failed for value "111" (type string) at path "_id" for model "Categorie"
+    at new MongooseError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/error/cast.js:27:7)
+    at ObjectId.cast (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/schema/objectid.js:248:11)
+    at ObjectId.SchemaType.applySetters (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/schematype.js:1202:12)
+    at ObjectId.SchemaType.castForQuery (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/schematype.js:1614:15)
+    at cast (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/cast.js:348:32)
+    at model.Query.Query.cast (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/query.js:4819:12)
+    at model.Query.Query._castConditions (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/query.js:2193:10)
+    at model.Query._findOne (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/query.js:2477:8)
+    at model.Query.exec (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/query.js:4349:28)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) {
+  stringValue: '"111"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: '111',
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/bson/src/error.ts:27:5)
+      at new ObjectId (/Users/ltc/Desktop/my/front/blog-serve/node_modules/bson/src/objectid.ts:88:15)
+      at castObjectId (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/schema/objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/schematype.js:1202:12)
+      at ObjectId.SchemaType.castForQuery (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/schematype.js:1614:15)
+      at cast (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/cast.js:348:32)
+      at model.Query.Query.cast (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/query.js:4819:12)
+      at model.Query.Query._castConditions (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/query.js:2193:10)
+      at model.Query._findOne (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/query.js:2477:8)
+      at model.Query.exec (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/query.js:4349:28)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5),
+  valueType: 'string',
+  model: Model { Categorie }
+}
+[2023-05-18 17:22:24] [ERROR] CastError: Cast to ObjectId failed for value "6465edfd931c1d3eb6deb8" (type string) at path "_id" for model "Categorie"
+    at new MongooseError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/error/cast.js:27:7)
+    at ObjectId.cast (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/schema/objectid.js:248:11)
+    at ObjectId.SchemaType.applySetters (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/schematype.js:1202:12)
+    at ObjectId.SchemaType.castForQuery (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/schematype.js:1614:15)
+    at cast (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/cast.js:348:32)
+    at model.Query.Query.cast (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/query.js:4819:12)
+    at model.Query.Query._castConditions (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/query.js:2193:10)
+    at model.Query._findOne (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/query.js:2477:8)
+    at model.Query.exec (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/query.js:4349:28)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) {
+  stringValue: '"6465edfd931c1d3eb6deb8"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: '6465edfd931c1d3eb6deb8',
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/bson/src/error.ts:27:5)
+      at new ObjectId (/Users/ltc/Desktop/my/front/blog-serve/node_modules/bson/src/objectid.ts:88:15)
+      at castObjectId (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/schema/objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/schematype.js:1202:12)
+      at ObjectId.SchemaType.castForQuery (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/schematype.js:1614:15)
+      at cast (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/cast.js:348:32)
+      at model.Query.Query.cast (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/query.js:4819:12)
+      at model.Query.Query._castConditions (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/query.js:2193:10)
+      at model.Query._findOne (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/query.js:2477:8)
+      at model.Query.exec (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/query.js:4349:28)
+      at processTicksAndRejections (internal/process/task_queues.js:95:5),
+  valueType: 'string',
+  model: Model { Categorie }
+}
+[2023-05-18 17:36:01] [ERROR] TypeError: this.update is not a function
+    at model.Query.<anonymous> (/Users/ltc/Desktop/my/front/blog-serve/utils/mongoose-plugin.js:25:10)
+    at callMiddlewareFunction (/Users/ltc/Desktop/my/front/blog-serve/node_modules/kareem/index.js:628:27)
+    at next (/Users/ltc/Desktop/my/front/blog-serve/node_modules/kareem/index.js:93:7)
+    at Kareem.execPre (/Users/ltc/Desktop/my/front/blog-serve/node_modules/kareem/index.js:122:8)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/query.js:4424:28
+    at new Promise (<anonymous>)
+    at _executePreHooks (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/query.js:4423:10)
+    at model.Query.exec (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/query.js:4348:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[2023-05-18 18:02:14] [ERROR] MongoParseError: option usecreateindex is not supported
+    at new MongoError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/error.ts:138:7)
+    at new MongoDriverError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/error.ts:209:5)
+    at new MongoParseError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/error.ts:592:5)
+    at parseOptions (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/connection_string.ts:360:11)
+    at new MongoClient (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/mongo_client.ts:337:34)
+    at _createMongoClient (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/connection.js:887:14)
+    at NativeConnection.openUri (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/connection.js:742:29)
+    at Mongoose.connect (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/index.js:406:15)
+    at _default (/Users/ltc/Desktop/my/front/blog-serve/core/db.js:7:12)
+    at Object.<anonymous> (/Users/ltc/Desktop/my/front/blog-serve/app.js:19:10)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (/Users/ltc/Desktop/my/front/blog-serve/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (/Users/ltc/Desktop/my/front/blog-serve/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.runMain (internal/modules/run_main.js:75:12)
+    at Object.<anonymous> (/Users/ltc/Desktop/my/front/blog-serve/node_modules/@babel/node/src/_babel-node.ts:223:12)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:75:12)
+    at internal/main/run_main_module.js:17:47 {
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-05-18 18:03:14] [ERROR] MongoParseError: options usecreateindex, usefindandmodify are not supported
+    at new MongoError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/error.ts:138:7)
+    at new MongoDriverError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/error.ts:209:5)
+    at new MongoParseError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/error.ts:592:5)
+    at parseOptions (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/connection_string.ts:360:11)
+    at new MongoClient (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/mongo_client.ts:337:34)
+    at _createMongoClient (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/connection.js:887:14)
+    at NativeConnection.openUri (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/connection.js:742:29)
+    at Mongoose.connect (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/index.js:406:15)
+    at _default (/Users/ltc/Desktop/my/front/blog-serve/core/db.js:7:12)
+    at Object.<anonymous> (/Users/ltc/Desktop/my/front/blog-serve/app.js:19:10)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (/Users/ltc/Desktop/my/front/blog-serve/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (/Users/ltc/Desktop/my/front/blog-serve/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.runMain (internal/modules/run_main.js:75:12)
+    at Object.<anonymous> (/Users/ltc/Desktop/my/front/blog-serve/node_modules/@babel/node/src/_babel-node.ts:223:12)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:75:12)
+    at internal/main/run_main_module.js:17:47 {
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-05-18 18:03:44] [ERROR] MongooseError: Operation `categories.insertOne()` buffering timed out after 10000ms
+    at new MongooseError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at Timeout.<anonymous> (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:185:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+[2023-05-18 18:16:56] [ERROR] SyntaxError: invalid JSON, only supports object and array
+    at parse (/Users/ltc/Desktop/my/front/blog-serve/node_modules/co-body/lib/json.js:55:13)
+    at AsyncFunction.module.exports [as json] (/Users/ltc/Desktop/my/front/blog-serve/node_modules/co-body/lib/json.js:41:20)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-body/src/index.ts:48:28
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-log4/koa-logger.js:86:7
+    at session (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-session/index.js:41:7) {
+  status: 400,
+  body: '"\\n"'
+}
+[2023-05-18 18:17:05] [ERROR] SyntaxError: invalid JSON, only supports object and array
+    at parse (/Users/ltc/Desktop/my/front/blog-serve/node_modules/co-body/lib/json.js:55:13)
+    at AsyncFunction.module.exports [as json] (/Users/ltc/Desktop/my/front/blog-serve/node_modules/co-body/lib/json.js:41:20)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-body/src/index.ts:48:28
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-log4/koa-logger.js:86:7
+    at session (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-session/index.js:41:7) {
+  status: 400,
+  body: '"\\n"'
+}
+[2023-05-18 18:17:18] [ERROR] SyntaxError: invalid JSON, only supports object and array
+    at parse (/Users/ltc/Desktop/my/front/blog-serve/node_modules/co-body/lib/json.js:55:13)
+    at AsyncFunction.module.exports [as json] (/Users/ltc/Desktop/my/front/blog-serve/node_modules/co-body/lib/json.js:41:20)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-body/src/index.ts:48:28
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-log4/koa-logger.js:86:7
+    at session (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-session/index.js:41:7) {
+  status: 400,
+  body: '"\\n"'
+}
+[2023-05-18 18:17:20] [ERROR] SyntaxError: invalid JSON, only supports object and array
+    at parse (/Users/ltc/Desktop/my/front/blog-serve/node_modules/co-body/lib/json.js:55:13)
+    at AsyncFunction.module.exports [as json] (/Users/ltc/Desktop/my/front/blog-serve/node_modules/co-body/lib/json.js:41:20)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-body/src/index.ts:48:28
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-log4/koa-logger.js:86:7
+    at session (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-session/index.js:41:7) {
+  status: 400,
+  body: '"\\n"'
+}
+[2023-05-18 18:17:29] [ERROR] SyntaxError: invalid JSON, only supports object and array
+    at parse (/Users/ltc/Desktop/my/front/blog-serve/node_modules/co-body/lib/json.js:55:13)
+    at AsyncFunction.module.exports [as json] (/Users/ltc/Desktop/my/front/blog-serve/node_modules/co-body/lib/json.js:41:20)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-body/src/index.ts:48:28
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-log4/koa-logger.js:86:7
+    at session (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-session/index.js:41:7) {
+  status: 400,
+  body: '"\\n"'
+}
+[2023-05-18 18:17:45] [ERROR] SyntaxError: invalid JSON, only supports object and array
+    at parse (/Users/ltc/Desktop/my/front/blog-serve/node_modules/co-body/lib/json.js:55:13)
+    at AsyncFunction.module.exports [as json] (/Users/ltc/Desktop/my/front/blog-serve/node_modules/co-body/lib/json.js:41:20)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-body/src/index.ts:48:28
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-log4/koa-logger.js:86:7
+    at session (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-session/index.js:41:7) {
+  status: 400,
+  body: '"\\n"'
+}
+[2023-05-18 18:18:40] [ERROR] SyntaxError: invalid JSON, only supports object and array
+    at parse (/Users/ltc/Desktop/my/front/blog-serve/node_modules/co-body/lib/json.js:55:13)
+    at AsyncFunction.module.exports [as json] (/Users/ltc/Desktop/my/front/blog-serve/node_modules/co-body/lib/json.js:41:20)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-body/src/index.ts:48:28
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-log4/koa-logger.js:86:7
+    at session (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-session/index.js:41:7) {
+  status: 400,
+  body: '"\\n"'
+}
+[2023-05-18 18:18:43] [ERROR] SyntaxError: invalid JSON, only supports object and array
+    at parse (/Users/ltc/Desktop/my/front/blog-serve/node_modules/co-body/lib/json.js:55:13)
+    at AsyncFunction.module.exports [as json] (/Users/ltc/Desktop/my/front/blog-serve/node_modules/co-body/lib/json.js:41:20)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-body/src/index.ts:48:28
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-log4/koa-logger.js:86:7
+    at session (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-session/index.js:41:7) {
+  status: 400,
+  body: '"\\n"'
+}
+[2023-05-18 18:19:40] [ERROR] SyntaxError: invalid JSON, only supports object and array
+    at parse (/Users/ltc/Desktop/my/front/blog-serve/node_modules/co-body/lib/json.js:55:13)
+    at AsyncFunction.module.exports [as json] (/Users/ltc/Desktop/my/front/blog-serve/node_modules/co-body/lib/json.js:41:20)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-body/src/index.ts:48:28
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-log4/koa-logger.js:86:7
+    at session (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-session/index.js:41:7) {
+  status: 400,
+  body: '"\\n"'
+}

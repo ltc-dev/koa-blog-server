@@ -1,0 +1,533 @@
+[2023-05-19 10:28:03] [ERROR] TypeError: _response.default.msg is not a function
+    at call (/Users/ltc/Desktop/my/front/blog-serve/controller/common.js:23:18)
+    at tryCatch (/Users/ltc/Desktop/my/front/blog-serve/controller/common.js:2:1)
+    at Generator._invoke (/Users/ltc/Desktop/my/front/blog-serve/controller/common.js:2:1)
+    at Generator.next (/Users/ltc/Desktop/my/front/blog-serve/controller/common.js:2:1)
+    at asyncGeneratorStep (/Users/ltc/Desktop/my/front/blog-serve/controller/common.js:2:1)
+    at _next (/Users/ltc/Desktop/my/front/blog-serve/controller/common.js:2:1)
+[2023-05-19 10:28:33] [ERROR] TypeError: Cannot read property 'toLowerCase' of undefined
+    at call (/Users/ltc/Desktop/my/front/blog-serve/controller/common.js:14:51)
+    at tryCatch (/Users/ltc/Desktop/my/front/blog-serve/controller/common.js:2:1)
+    at Generator._invoke (/Users/ltc/Desktop/my/front/blog-serve/controller/common.js:2:1)
+    at Generator.next (/Users/ltc/Desktop/my/front/blog-serve/controller/common.js:2:1)
+    at asyncGeneratorStep (/Users/ltc/Desktop/my/front/blog-serve/controller/common.js:2:1)
+    at _next (/Users/ltc/Desktop/my/front/blog-serve/controller/common.js:2:1)
+    at /Users/ltc/Desktop/my/front/blog-serve/controller/common.js:2:1
+    at new Promise (<anonymous>)
+    at apply (/Users/ltc/Desktop/my/front/blog-serve/controller/common.js:2:1)
+    at login (/Users/ltc/Desktop/my/front/blog-serve/controller/common.js:9:19)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:425:16
+    at next (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at call (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:12:11)
+    at tryCatch (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at Generator._invoke (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at Generator.next (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at asyncGeneratorStep (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at _next (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at /Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1
+    at new Promise (<anonymous>)
+    at apply (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at /Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:24:2
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:425:16
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:430:31)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-static/index.js:53:15)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at logger (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-logger/index.js:67:13)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-bouncer/src/index.js:664:12
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-body/src/index.ts:120:12
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-log4/koa-logger.js:86:7
+    at session (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-session/index.js:41:7)
+[2023-05-19 10:28:45] [ERROR] TypeError: Cannot read property 'toLowerCase' of undefined
+    at call (/Users/ltc/Desktop/my/front/blog-serve/controller/common.js:14:51)
+    at tryCatch (/Users/ltc/Desktop/my/front/blog-serve/controller/common.js:2:1)
+    at Generator._invoke (/Users/ltc/Desktop/my/front/blog-serve/controller/common.js:2:1)
+    at Generator.next (/Users/ltc/Desktop/my/front/blog-serve/controller/common.js:2:1)
+    at asyncGeneratorStep (/Users/ltc/Desktop/my/front/blog-serve/controller/common.js:2:1)
+    at _next (/Users/ltc/Desktop/my/front/blog-serve/controller/common.js:2:1)
+    at /Users/ltc/Desktop/my/front/blog-serve/controller/common.js:2:1
+    at new Promise (<anonymous>)
+    at apply (/Users/ltc/Desktop/my/front/blog-serve/controller/common.js:2:1)
+    at login (/Users/ltc/Desktop/my/front/blog-serve/controller/common.js:9:19)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:425:16
+    at next (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at call (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:12:11)
+    at tryCatch (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at Generator._invoke (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at Generator.next (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at asyncGeneratorStep (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at _next (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at /Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1
+    at new Promise (<anonymous>)
+    at apply (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at /Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:24:2
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:425:16
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:430:31)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-static/index.js:53:15)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at logger (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-logger/index.js:67:13)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-bouncer/src/index.js:664:12
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-body/src/index.ts:120:12
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-log4/koa-logger.js:86:7
+    at session (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-session/index.js:41:7)
+[2023-05-19 10:29:20] [ERROR] TypeError: Cannot read property 'toLowerCase' of undefined
+    at call (/Users/ltc/Desktop/my/front/blog-serve/controller/common.js:14:37)
+    at tryCatch (/Users/ltc/Desktop/my/front/blog-serve/controller/common.js:2:1)
+    at Generator._invoke (/Users/ltc/Desktop/my/front/blog-serve/controller/common.js:2:1)
+    at Generator.next (/Users/ltc/Desktop/my/front/blog-serve/controller/common.js:2:1)
+    at asyncGeneratorStep (/Users/ltc/Desktop/my/front/blog-serve/controller/common.js:2:1)
+    at _next (/Users/ltc/Desktop/my/front/blog-serve/controller/common.js:2:1)
+    at /Users/ltc/Desktop/my/front/blog-serve/controller/common.js:2:1
+    at new Promise (<anonymous>)
+    at apply (/Users/ltc/Desktop/my/front/blog-serve/controller/common.js:2:1)
+    at login (/Users/ltc/Desktop/my/front/blog-serve/controller/common.js:9:19)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:425:16
+    at next (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at call (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:12:11)
+    at tryCatch (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at Generator._invoke (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at Generator.next (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at asyncGeneratorStep (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at _next (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at /Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1
+    at new Promise (<anonymous>)
+    at apply (/Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:2:1)
+    at /Users/ltc/Desktop/my/front/blog-serve/middlewares/auth-session.js:24:2
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:425:16
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/@koa/router/lib/router.js:430:31)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-static/index.js:53:15)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at logger (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-logger/index.js:67:13)
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-bouncer/src/index.js:664:12
+    at dispatch (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-compose/index.js:42:32)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-body/src/index.ts:120:12
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-log4/koa-logger.js:86:7
+    at session (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-session/index.js:41:7)
+[2023-05-19 10:34:11] [ERROR] RangeError: Maximum call stack size exceeded
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:331:37)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+    at toObject (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/utils.js:364:16)
+[2023-05-19 10:49:35] [WARN] [Error [ValidationError]: 文章分类(categorie_id)为必传参数] {
+  bouncer: { key: 'categorie_id', message: '文章分类(categorie_id)为必传参数' }
+}
+[2023-05-19 10:49:47] [ERROR] Error: Article validation failed: categorie_id: 文章分类ID为必传参数, content: 文章内容为必传参数, title: 文章标题为必传参数
+    at Error.inspect (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/error/validation.js:50:26)
+    at formatValue (internal/util/inspect.js:745:19)
+    at inspect (internal/util/inspect.js:319:10)
+    at formatWithOptionsInternal (internal/util/inspect.js:1979:40)
+    at Object.format (internal/util/inspect.js:1853:10)
+    at Object.formatMessage [as m] (/Users/ltc/Desktop/my/front/blog-serve/node_modules/log4js/lib/layouts.js:167:17)
+    at replaceToken (/Users/ltc/Desktop/my/front/blog-serve/node_modules/log4js/lib/layouts.js:242:42)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/log4js/lib/layouts.js:302:29
+    at app (/Users/ltc/Desktop/my/front/blog-serve/node_modules/log4js/lib/appenders/dateFile.js:30:19)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/log4js/lib/log4js.js:42:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (/Users/ltc/Desktop/my/front/blog-serve/node_modules/log4js/lib/log4js.js:41:21)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/log4js/lib/clustering.js:16:26
+    at Array.forEach (<anonymous>)
+    at sendToListeners (/Users/ltc/Desktop/my/front/blog-serve/node_modules/log4js/lib/clustering.js:16:13)
+    at Object.send (/Users/ltc/Desktop/my/front/blog-serve/node_modules/log4js/lib/clustering.js:78:7)
+    at Logger._log (/Users/ltc/Desktop/my/front/blog-serve/node_modules/log4js/lib/logger.js:56:16)
+    at Logger.log (/Users/ltc/Desktop/my/front/blog-serve/node_modules/log4js/lib/logger.js:45:12)
+    at Logger.error (/Users/ltc/Desktop/my/front/blog-serve/node_modules/log4js/lib/logger.js:84:10)
+    at Application.<anonymous> (/Users/ltc/Desktop/my/front/blog-serve/app.js:61:10)
+    at Application.emit (events.js:400:28)
+    at Application.emit (domain.js:475:12)
+    at Object.app.context.onerror (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa-onerror/index.js:62:14)
+    at onerror (/Users/ltc/Desktop/my/front/blog-serve/node_modules/koa/lib/application.js:183:32)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) {
+  errors: {
+    categorie_id: ValidatorError: 文章分类ID为必传参数
+        at new MongooseError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+        at new ValidatorError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/error/validator.js:25:5)
+        at validate (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/schematype.js:1347:13)
+        at SchemaString.SchemaType.doValidate (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/schematype.js:1331:7)
+        at /Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/document.js:2932:18
+        at processTicksAndRejections (internal/process/task_queues.js:77:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'categorie_id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    content: ValidatorError: 文章内容为必传参数
+        at new MongooseError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+        at new ValidatorError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/error/validator.js:25:5)
+        at validate (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/schematype.js:1347:13)
+        at SchemaString.SchemaType.doValidate (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/schematype.js:1331:7)
+        at /Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/document.js:2932:18
+        at processTicksAndRejections (internal/process/task_queues.js:77:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'content',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    title: ValidatorError: 文章标题为必传参数
+        at new MongooseError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+        at new ValidatorError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/error/validator.js:25:5)
+        at validate (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/schematype.js:1347:13)
+        at SchemaString.SchemaType.doValidate (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/schematype.js:1331:7)
+        at /Users/ltc/Desktop/my/front/blog-serve/node_modules/mongoose/lib/document.js:2932:18
+        at processTicksAndRejections (internal/process/task_queues.js:77:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'title',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Article validation failed'
+}
+[2023-05-19 10:51:53] [ERROR] MongoServerError: E11000 duplicate key error collection: test.categories index: name_1 dup key: { name: "分类名称" }
+    at new MongoError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/error.ts:138:7)
+    at new MongoServerError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/error.ts:185:5)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/operations/insert.ts:85:25
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/connection_pool.ts:566:11
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/sdam/server.ts:367:13
+    at handleOperationResult (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/sdam/server.ts:501:14)
+    at Connection.onMessage (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/connection.ts:418:5)
+    at MessageStream.<anonymous> (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/connection.ts:243:56)
+    at MessageStream.emit (events.js:400:28)
+    at MessageStream.emit (domain.js:475:12)
+    at processIncomingData (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/message_stream.ts:187:12)
+    at MessageStream._write (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/message_stream.ts:68:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at Socket.emit (domain.js:475:12)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  index: 0,
+  code: 11000,
+  keyPattern: { name: 1 },
+  keyValue: { name: '分类名称' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-05-19 10:52:36] [ERROR] MongoServerError: E11000 duplicate key error collection: test.articles index: title_1 dup key: { title: "这是一篇文章" }
+    at new MongoError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/error.ts:138:7)
+    at new MongoServerError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/error.ts:185:5)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/operations/insert.ts:85:25
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/connection_pool.ts:566:11
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/sdam/server.ts:367:13
+    at handleOperationResult (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/sdam/server.ts:501:14)
+    at Connection.onMessage (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/connection.ts:418:5)
+    at MessageStream.<anonymous> (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/connection.ts:243:56)
+    at MessageStream.emit (events.js:400:28)
+    at MessageStream.emit (domain.js:475:12)
+    at processIncomingData (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/message_stream.ts:187:12)
+    at MessageStream._write (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/message_stream.ts:68:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at Socket.emit (domain.js:475:12)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  index: 0,
+  code: 11000,
+  keyPattern: { title: 1 },
+  keyValue: { title: '这是一篇文章' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-05-19 10:52:55] [ERROR] MongoServerError: E11000 duplicate key error collection: test.categories index: name_1 dup key: { name: "分类名称11" }
+    at new MongoError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/error.ts:138:7)
+    at new MongoServerError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/error.ts:185:5)
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/operations/insert.ts:85:25
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/connection_pool.ts:566:11
+    at /Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/sdam/server.ts:367:13
+    at handleOperationResult (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/sdam/server.ts:501:14)
+    at Connection.onMessage (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/connection.ts:418:5)
+    at MessageStream.<anonymous> (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/connection.ts:243:56)
+    at MessageStream.emit (events.js:400:28)
+    at MessageStream.emit (domain.js:475:12)
+    at processIncomingData (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/message_stream.ts:187:12)
+    at MessageStream._write (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/message_stream.ts:68:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at Socket.emit (domain.js:475:12)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  index: 0,
+  code: 11000,
+  keyPattern: { name: 1 },
+  keyValue: { name: '分类名称11' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-05-19 11:03:01] [ERROR] MongoServerError: E11000 duplicate key error collection: test.categories index: name_1 dup key: { name: "分类名称11" }
+    at new MongoError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/error.ts:138:7)
+    at new MongoServerError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/error.ts:185:5)
+    at Connection.onMessage (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/connection.ts:413:18)
+    at MessageStream.<anonymous> (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/connection.ts:243:56)
+    at MessageStream.emit (events.js:400:28)
+    at MessageStream.emit (domain.js:475:12)
+    at processIncomingData (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/message_stream.ts:187:12)
+    at MessageStream._write (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/message_stream.ts:68:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at Socket.emit (domain.js:475:12)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 11000,
+  codeName: 'DuplicateKey',
+  keyPattern: { name: 1 },
+  keyValue: { name: '分类名称11' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-05-19 11:10:10] [ERROR] MongoServerError: E11000 duplicate key error collection: test.categories index: name_1 dup key: { name: "分类名称11" }
+    at new MongoError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/error.ts:138:7)
+    at new MongoServerError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/error.ts:185:5)
+    at Connection.onMessage (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/connection.ts:413:18)
+    at MessageStream.<anonymous> (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/connection.ts:243:56)
+    at MessageStream.emit (events.js:400:28)
+    at MessageStream.emit (domain.js:475:12)
+    at processIncomingData (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/message_stream.ts:187:12)
+    at MessageStream._write (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/message_stream.ts:68:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at Socket.emit (domain.js:475:12)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 11000,
+  codeName: 'DuplicateKey',
+  keyPattern: { name: 1 },
+  keyValue: { name: '分类名称11' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-05-19 11:10:12] [ERROR] MongoServerError: E11000 duplicate key error collection: test.categories index: name_1 dup key: { name: "分类名称11" }
+    at new MongoError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/error.ts:138:7)
+    at new MongoServerError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/error.ts:185:5)
+    at Connection.onMessage (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/connection.ts:413:18)
+    at MessageStream.<anonymous> (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/connection.ts:243:56)
+    at MessageStream.emit (events.js:400:28)
+    at MessageStream.emit (domain.js:475:12)
+    at processIncomingData (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/message_stream.ts:187:12)
+    at MessageStream._write (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/message_stream.ts:68:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at Socket.emit (domain.js:475:12)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 11000,
+  codeName: 'DuplicateKey',
+  keyPattern: { name: 1 },
+  keyValue: { name: '分类名称11' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-05-19 11:10:24] [ERROR] MongoServerError: E11000 duplicate key error collection: test.categories index: name_1 dup key: { name: "分类名称11" }
+    at new MongoError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/error.ts:138:7)
+    at new MongoServerError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/error.ts:185:5)
+    at Connection.onMessage (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/connection.ts:413:18)
+    at MessageStream.<anonymous> (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/connection.ts:243:56)
+    at MessageStream.emit (events.js:400:28)
+    at MessageStream.emit (domain.js:475:12)
+    at processIncomingData (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/message_stream.ts:187:12)
+    at MessageStream._write (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/message_stream.ts:68:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at Socket.emit (domain.js:475:12)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 11000,
+  codeName: 'DuplicateKey',
+  keyPattern: { name: 1 },
+  keyValue: { name: '分类名称11' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-05-19 11:10:48] [ERROR] MongoServerError: E11000 duplicate key error collection: test.categories index: name_1 dup key: { name: "分类名称11" }
+    at new MongoError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/error.ts:138:7)
+    at new MongoServerError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/error.ts:185:5)
+    at Connection.onMessage (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/connection.ts:413:18)
+    at MessageStream.<anonymous> (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/connection.ts:243:56)
+    at MessageStream.emit (events.js:400:28)
+    at MessageStream.emit (domain.js:475:12)
+    at processIncomingData (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/message_stream.ts:187:12)
+    at MessageStream._write (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/message_stream.ts:68:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at Socket.emit (domain.js:475:12)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 11000,
+  codeName: 'DuplicateKey',
+  keyPattern: { name: 1 },
+  keyValue: { name: '分类名称11' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-05-19 11:11:27] [ERROR] MongoServerError: E11000 duplicate key error collection: test.categories index: name_1 dup key: { name: "分类名称11" }
+    at new MongoError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/error.ts:138:7)
+    at new MongoServerError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/error.ts:185:5)
+    at Connection.onMessage (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/connection.ts:413:18)
+    at MessageStream.<anonymous> (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/connection.ts:243:56)
+    at MessageStream.emit (events.js:400:28)
+    at MessageStream.emit (domain.js:475:12)
+    at processIncomingData (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/message_stream.ts:187:12)
+    at MessageStream._write (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/cmap/message_stream.ts:68:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.ondata (internal/streams/readable.js:731:22)
+    at Socket.emit (events.js:400:28)
+    at Socket.emit (domain.js:475:12)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 11000,
+  codeName: 'DuplicateKey',
+  keyPattern: { name: 1 },
+  keyValue: { name: '分类名称11' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-05-19 11:11:38] [WARN] [自定义异常] { status: 400, message: '分类名重复' }
+[2023-05-19 11:13:41] [WARN] [自定义异常] { status: 400, message: '文章名重复' }
+[2023-05-19 11:14:03] [ERROR] ReferenceError: res is not defined
+    at call (/Users/ltc/Desktop/my/front/blog-serve/services/article.js:23:10)
+    at tryCatch (/Users/ltc/Desktop/my/front/blog-serve/services/article.js:2:1)
+    at Generator._invoke (/Users/ltc/Desktop/my/front/blog-serve/services/article.js:2:1)
+    at Generator.next (/Users/ltc/Desktop/my/front/blog-serve/services/article.js:2:1)
+    at asyncGeneratorStep (/Users/ltc/Desktop/my/front/blog-serve/services/article.js:2:1)
+    at _next (/Users/ltc/Desktop/my/front/blog-serve/services/article.js:2:1)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[2023-05-19 11:18:45] [ERROR] ReferenceError: res is not defined
+    at call (/Users/ltc/Desktop/my/front/blog-serve/services/article.js:23:10)
+    at tryCatch (/Users/ltc/Desktop/my/front/blog-serve/services/article.js:2:1)
+    at Generator._invoke (/Users/ltc/Desktop/my/front/blog-serve/services/article.js:2:1)
+    at Generator.next (/Users/ltc/Desktop/my/front/blog-serve/services/article.js:2:1)
+    at asyncGeneratorStep (/Users/ltc/Desktop/my/front/blog-serve/services/article.js:2:1)
+    at _next (/Users/ltc/Desktop/my/front/blog-serve/services/article.js:2:1)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[2023-05-19 11:18:45] [ERROR] Error on POST /api/article/update: ReferenceError: res is not defined
+[2023-05-19 11:20:04] [ERROR] Error on POST /api/article/update: ReferenceError: res is not defined
+[2023-05-19 11:47:18] [WARN] [自定义异常] { status: 400, message: '文章名重复' }
+[2023-05-19 11:53:48] [WARN] [自定义异常] { status: 400, message: '文件上传失败' }
+[2023-05-19 14:00:12] [WARN] [自定义异常] { status: 400, message: '文件上传失败' }
+[2023-05-19 15:13:38] [ERROR] MongoServerSelectionError: getaddrinfo ENOTFOUND 127.
+    at new MongoError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/error.ts:138:7)
+    at new MongoSystemError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/error.ts:680:7)
+    at new MongoServerSelectionError (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/error.ts:704:5)
+    at Timeout._onTimeout (/Users/ltc/Desktop/my/front/blog-serve/node_modules/mongodb/src/sdam/topology.ts:562:30)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [Symbol(errorLabels)]: Set(0) {}
+}
