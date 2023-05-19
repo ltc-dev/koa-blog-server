@@ -6,7 +6,7 @@ export default{
 export const db = {
   name:"test",
   user:"test",
-  ip:"127.",
+  ip:"127.0.0.1",
   port:"27017",
   password:"123456",
 }
